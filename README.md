@@ -28,17 +28,19 @@ This is a simple API for task management applications built using Node.js, Expre
    The API will be available at http://localhost:3001.
 
    API Endpoints
-   GET /tasks: Get a list of all tasks.
-   POST /tasks: Create a new task.
-   GET /tasks/{id}: Get a task by ID.
-   PATCH /tasks/{id}: Update a task by ID.
-   DELETE /tasks/{id}: Delete a task by ID.
+
+   - GET /tasks: Get a list of all tasks.
+   - POST /tasks: Create a new task.
+   - GET /tasks/{id}: Get a task by ID.
+   - PATCH /tasks/{id}: Update a task by ID.
+   - DELETE /tasks/{id}: Delete a task by ID.
 
    Environment Variables
    Create a .env file in the project root directory and add the following variables:
-   DB_NAME=your_database_name
-   DB_USER=your_database_user
-   DB_PASSWORD=your_database_password
-   DB_HOST=your_database_host
-   DB_DIALECT=your_database_dialect
-   PORT=3001
+   
+   - DB_NAME=your_database_name
+   - DB_USER=your_database_user
+   - DB_PASSWORD=your_database_password
+   - DB_HOST=your_database_host
+   - DB_DIALECT=your_database_dialect
+   - PORT=3001
