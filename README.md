@@ -15,7 +15,7 @@ This is a simple API for task management applications built using Node.js, Expre
 
 2. Install dependencies:
 
-   cd task-management-api
+   cd TECHNICAL-TEST-NODEJS
    - yarn install
 
 3. Set up the database:
