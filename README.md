@@ -11,20 +11,21 @@ This is a simple API for task management applications built using Node.js, Expre
 
 1. Clone the repository:
 
-   git clone <https://github.com/Iqsan01/TECHNICAL-TEST-NODEJS.git>
+   - git clone <https://github.com/Iqsan01/TECHNICAL-TEST-NODEJS.git>
 
 2. Install dependencies:
 
    cd task-management-api
-   npm install
+   - yarn install
 
 3. Set up the database:
 
    Create a MySQL database.
-   With database name = technical_test
+   - With database name = technical_test
 
 4. Start the server:
-   yarn dev
+   - yarn dev
+   
    The API will be available at http://localhost:3001.
 
    API Endpoints
