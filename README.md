@@ -11,7 +11,7 @@ This is a simple API for task management applications built using Node.js, Expre
 
 1. Clone the repository:
 
-   git clone <repository-url>
+   git clone <https://github.com/Iqsan01/TECHNICAL-TEST-NODEJS.git>
 
 2. Install dependencies:
 
