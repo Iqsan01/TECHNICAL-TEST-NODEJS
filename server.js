@@ -3,6 +3,7 @@ const app = express();
 const morgan = require("morgan");
 const sequelize = require("./config/database");
 const taskRoutes = require("./routes/task");
+const errorHandler = require("./middlewares/errorHandler");
 
 // Connect to the database
 sequelize.sync()
@@ -21,10 +22,7 @@ app.use(morgan("dev"));
 app.use("/tasks", taskRoutes);
 
 // Error handling middleware
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).json({ error: "Internal server error" });
-});
+app.use(errorHandler);
 
 // Start the server
 const PORT = process.env.PORT || 3000;
